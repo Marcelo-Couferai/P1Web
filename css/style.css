@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+}
+#pagina{
+  position: relative;
+  border: 1px solid black;
+  margin: 0px auto 0px;
+  width: 950px;
+  height: 700px;
+  background-color: white
+}
+.principal{
+  position: absolute;
+  width: 900px;
+  height: 620px;
+  background-color: #f0f0f0;
+  border: 0,2px solid silver;
+  margin: 25px 25px 25px 25px
+}
+#cadastro{
+   position: absolute;
+   margin: 45px 50px 50px 680px ;
+   text-align: center;
+}
+#instagram{
+ position: absolute;
+ width: 30px;
+ height: 30px;
+ margin: 40px 30px 50px 25px
+}
+#facebook{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  margin: 90px 30px 50px 18px
+}
+.opcoes{
+  position: relative;
+  background-color: red;
+  height: 30px;
+  width: 770px;
+  margin: 180px 60px 50px 60px;
+}
+#opcaocamiseta{
+  position: absolute;
+   margin: 0px 0px 5px 45px
+}
+#opcaobordado{
+  position: absolute;
+   margin: 0px 0px 5px 210px
+}
+#opcaodepoimento{
+  position: absolute;
+  margin: 0px 0px 5px 450px
+}
+#bordadosfeitos{
+  position: absolute;
+  background-color: #f0f0f0;
+  border: solid red;
+  width: 260px;
+  height: 155px;
+  margin: 10px 50px 0px 140px
+}
+.modelos{
+  position: relative;
+  border: 1px solid #f0f0f0;
+  margin: 50px 50px 0px 500px;
+  width: 260px;
+  height: 165px;
+  background-color: #f0f0f0
+
+}
+#caixa1{
+  position: absolute;
+  background-color: #f0f0f0;
+  border: 2px solid black;
+  width: 75px;
+  height: 75px;
+  margin: 10px 10px 10px 10px
+}
+#caixa2{
+  position: absolute;
+  background-color: #f0f0f0;
+  border: 2px solid black;
+  width: 75px;
+  height: 75px;
+  margin: 10px 80px 50px 90px
+}
+#caixa3{
+  position: absolute;
+  background-color: #f0f0f0;
+  border: 2px solid black;
+  width: 75px;
+  height: 75px;
+  margin: 10px 80px 50px 170px
+}
+#caixa4{
+  position: absolute;
+  background-color: #f0f0f0;
+  border: 2px solid black;
+  width: 75px;
+  height: 75px;
+  margin: 88px 10px 50px 10px
+}
+#caixa5{
+  position: absolute;
+  background-color: #f0f0f0;
+  border: 2px solid black;
+  width: 75px;
+  height: 75px;
+  margin: 88px 10px 10px 90px
+}
+#caixa6{
+  position: absolute;
+  background-color: #f0f0f0;
+  border: 2px solid black;
+  width: 75px;
+  height: 75px;
+  margin: 88px 10px 10px 170px
+}
+.dadosempresa{
+  
+}
