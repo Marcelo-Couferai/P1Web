@@ -4,7 +4,7 @@
 #pagina{
   position: relative;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid silver;
   margin: 0px auto 0px;
   width: 950px;
   height: 700px;
@@ -250,18 +250,50 @@ border-radius: 40px;
 }
 #table1{
   position: absolute;
-  width: 50px;
-  height: 50px;
-  margin: 50px 0px 0px 50px;
+  width: 170px;
+  height: 250px;
+  margin: -25px 0px 0px 80px;
   border: 1px solid black;
   border-radius: 10px
 }
 #table2{
   position: absolute;
+  width: 170px;
+  height: 250px;
+  margin: -25px 0px 0px 270px;
+  border: 1px solid black;
+  border-radius: 10px
 }
 #table3{
 position: absolute;
+width: 170px;
+height: 250px;
+margin: -25px 0px 0px 460px;
+border: 1px solid black;
+border-radius: 10px
 }
 #table4{
   position: absolute;
+  width: 170px;
+  height: 250px;
+  margin: -25px 0px 0px 650px;
+  border: 1px solid black;
+  border-radius: 10px
+}
+#camisa1{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin: 50px 0px 0px 10px
+}
+#camisa2{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin: 25px 0px 0px 280px
+}
+#informacao{
+  text-align: center;
+  color: white;
+
 }
