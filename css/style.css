@@ -14,15 +14,18 @@
   position: absolute;
   border-radius: 10px;
   width: 900px;
-  height: 620px;
+  height: 665px;
   background-color: #f0f0f0;
   border: 0,2px solid silver;
   margin: 25px 25px 25px 25px
 }
 #cadastro{
    position: absolute;
-   margin: 45px 50px 50px 680px ;
+   margin: 45px 50px 50px 692px ;
    text-align: center;
+   font-family: fantasy;
+   color: black;
+   text-decoration: none;
 }
 #camiseta{
   position: absolute;
@@ -63,7 +66,23 @@
   margin: 77px 30px 50px 102px
 }
 .acesseredes{
-    margin: -398px 0px 0px 25px
+    margin: -445px 0px 0px 25px
+}
+#anuncio{
+    margin: 407px 0px 0px 0px;
+    text-align: center;
+    font-size: 25px;
+    height: 35px;
+}
+#anuncio:hover{
+  margin:390px 0px 0px 50px;
+  text-align: center;
+  width: 750px;
+  height: 50px;
+  background-color: #ff4040;
+  border-radius:50px;
+  color: white;
+  font-size: 40px
 }
 .opcoes{
   border-radius: 50px;
@@ -76,7 +95,11 @@
 #opcaocamiseta{
   color: white;
   position: absolute;
-  margin: -8px 0px 5px 45px
+  margin: -8px 0px 5px 45px;
+}
+.blusa{
+  color: white;
+  text-decoration: none;
 }
 #opcaobordado{
   color: white;
@@ -97,6 +120,9 @@
   height: 155px;
   margin: 10px 50px 0px 140px
 }
+#bordadosfeitos:hover{
+  border: 4px solid red;
+}
 .modelos{
   position: relative;
   border: 1px solid #f0f0f0;
@@ -115,6 +141,9 @@
   height: 75px;
   margin: 10px 10px 10px 10px
 }
+#caixa1:hover{
+  border: 2px solid red;
+}
 #caixa2{
   position: absolute;
   background-color: #f0f0f0;
@@ -123,6 +152,9 @@
   width: 75px;
   height: 75px;
   margin: 10px 80px 50px 90px
+}
+#caixa2:hover{
+  border: 2px solid red;
 }
 #caixa3{
   position: absolute;
@@ -133,6 +165,9 @@
   height: 75px;
   margin: 10px 80px 50px 170px
 }
+#caixa3:hover{
+  border: 2px solid red;
+}
 #caixa4{
   position: absolute;
   background-color: #f0f0f0;
@@ -141,6 +176,9 @@
   width: 75px;
   height: 75px;
   margin: 88px 10px 50px 10px
+}
+#caixa4:hover{
+  border: 2px solid red;
 }
 #caixa5{
   position: absolute;
@@ -151,6 +189,9 @@
   height: 75px;
   margin: 88px 10px 10px 90px
 }
+#caixa5:hover{
+  border: 2px solid red;
+}
 #caixa6{
   position: absolute;
   background-color: #f0f0f0;
@@ -160,8 +201,11 @@
   height: 75px;
   margin: 88px 10px 10px 170px
 }
+#caixa6:hover{
+  border: 2px solid red;
+}
 .dadosempresa{
-border-radius: 40px;
+ border-radius: 40px;
  position: absolute;
  background-color: red;
  width: 700px;
@@ -180,7 +224,7 @@ border-radius: 40px;
   position: absolute;
   width: 150px;
   height: 150px;
-  margin: -390px 80px 100px 320px
+  margin: -435px 80px 100px 320px
 }
 .pagcadastro{
   position: relative;
@@ -237,10 +281,13 @@ border-radius: 40px;
   position: absolute;
   margin: 50px 0px 0px 335px;
 }
-#voltarinicio{
+.voltarinicio{
   position: absolute;
   margin: 60px 50px 50px 340px ;
   text-align: center;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
 }
 #lupa{
   position: absolute;
@@ -250,50 +297,314 @@ border-radius: 40px;
 }
 #table1{
   position: absolute;
-  width: 170px;
+  width: 190px;
   height: 250px;
-  margin: -25px 0px 0px 80px;
+  margin: -25px 0px 0px 40px;
   border: 1px solid black;
   border-radius: 10px
+}
+#table1:hover{
+  border: 2px solid red;
 }
 #table2{
   position: absolute;
-  width: 170px;
+  width: 190px;
   height: 250px;
-  margin: -25px 0px 0px 270px;
-  border: 1px solid black;
+  margin: -25px 0px 0px 250px;
+  border: 2px solid black;
   border-radius: 10px
+}
+#table2:hover{
+  border: 2px solid red;
 }
 #table3{
 position: absolute;
-width: 170px;
+width: 190px;
 height: 250px;
 margin: -25px 0px 0px 460px;
-border: 1px solid black;
+border: 2px solid black;
 border-radius: 10px
+}
+#table3:hover{
+  border: 2px solid red;
 }
 #table4{
   position: absolute;
-  width: 170px;
+  width: 190px;
   height: 250px;
-  margin: -25px 0px 0px 650px;
-  border: 1px solid black;
+  margin: -25px 0px 0px 670px;
+  border: 2px solid black;
   border-radius: 10px
+}
+#table4:hover{
+  border: 2px solid red;
 }
 #camisa1{
   position: absolute;
-  width: 150px;
-  height: 150px;
-  margin: 50px 0px 0px 10px
+  width: 187px;
+  height: 247px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 10px
 }
 #camisa2{
   position: absolute;
-  width: 150px;
-  height: 150px;
-  margin: 25px 0px 0px 280px
+  width: 187px;
+  height: 247px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 10px
 }
 #informacao{
   text-align: center;
+  color: white
+}
+#camisa3{
+  position: absolute;
+  width: 187px;
+  height: 247px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 10px
+}
+#camisa4{
+  position: absolute;
+  width: 187px;
+  height: 247px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 10px
+}
+#imagembordados{
+  position: absolute;
+  width: 254px;
+  height: 149px;
+  margin: 0px 0px 0px 0px ;
+  border-radius: 12px
+}
+#caixacamisa1{
+  position: absolute;
+  width: 71px;
+  height: 71px;
+  margin: 0px 0px 0px 0px ;
+  border-radius: 5px
+}
+#caixacamisa2{
+  position: absolute;
+  width: 71px;
+  height: 71px;
+  margin: 0px 0px 0px 0px ;
+  border-radius: 5px
+}
+#caixacamisa3{
+  position: absolute;
+  width: 71px;
+  height: 71px;
+  margin: 0px 0px 0px 0px ;
+  border-radius: 5px
+}
+#caixacamisa4{
+  position: absolute;
+  width: 71px;
+  height: 71px;
+  margin: 0px 0px 0px 0px ;
+  border-radius: 5px
+}
+#caixacamisa5{
+  position: absolute;
+  width: 71px;
+  height: 71px;
+  margin: 0px 0px 0px 0px ;
+  border-radius: 5px
+}
+#caixacamisa6{
+  position: absolute;
+  width: 71px;
+  height: 71px;
+  margin: 0px 0px 0px 0px ;
+  border-radius: 5px
+}
+#blusaflorida{
+  text-align: center;
+  position: absolute;
+  margin: 230px 0px 0px 85px
+}
+#blusamangalonga{
+  text-align: center;
+  position: absolute;
+  margin: 230px 0px 0px 249px
+}
+#cropped{
+  text-align: center;
+  position: absolute;
+  margin: 230px 0px 0px 523px
+}
+#blusarosa{
+  text-align: center;
+  position: absolute;
+  margin: 230px 0px 0px 715px
+}
+.camisa1borda{
+position: absolute;
+background-color: #f0f0f0;
+border: solid red;
+border-radius: 15px;
+width: 280px;
+height: 280px;
+margin: 60px 50px 0px 40px
+}
+#acesseredes1{
+  margin: -460px 0px 0px 25px
+}
+#camisa1foto{
+border-radius: 10px;
+height: 273.5px;
+width: 274.5px
+}
+.preçoscamisa1{
+  position: absolute;
+  margin: 130px 0px 0px 400px;
+  width: 480px;
+  height: 330px;
+}
+#nomecamisa{
+  margin: 10px 0px 0px 0px;
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+}
+#anunciocartao{
+  font-size: 13px;
+  text-align: center;
+  margin: 5px 0px 0px 0px;
+  font-family:cursive;
+}
+#preço1{
+  margin: 5px 0px 0px 0px;
+  text-align: center;
+  font-size: 50px;
+}
+.cartoes{
+  position: absolute;
+  margin: 3px 0px 0px 40px;
+  border-radius: 50px;
+  border: 1px solid red;
+  height: 30px;
+  width: 400px;
+}
+.cartoes:hover{
+  background-color: #ff4040;
+  color: white
+}
+#mastercardicone{
+  position: absolute;
+   margin: 2.5px 0px 0px 0px;
+   height: 23px ;
+   width: 40px;
+   border-radius: 50px;
+}
+.cartoes2{
+  position: absolute;
+  margin: 34px 0px 0px 40px;
+  border-radius: 50px;
+  border: 1px solid red;
+  height: 30px;
+  width: 400px;
+}
+.cartoes2:hover{
+  background-color: #ff4040;
+  color: white
+}
+#visaicone{
+  position: absolute;
+   margin: 2.5px 0px 0px 0px;
+   height: 20px ;
+   width: 35px;
+   border-radius: 4px;
+}
+.cartoes3{
+  position: absolute;
+  margin: 65px 0px 0px 40px;
+  border-radius: 50px;
+  border: 1px solid red;
+  height: 30px;
+  width: 400px;
+}
+.cartoes3:hover{
+  background-color: #ff4040;
+  color: white
+}
+#boletoicone{
+   position: absolute;
+   margin: -25px 0px 0px -20px;
+   height: 80px ;
+   width: 80px;
+}
+#cartaomaster{
+  position: absolute;
+  text-align: center;
+  margin: 5px 0px 0px 125px;
+}
+#cartaovisa{
+  position: absolute;
+  text-align: center;
+  margin: 5px 0px 0px 150px
+}
+#boletobancario{
+  position: absolute;
+  text-align: center;
+  margin: 5px 0px 0px 135px
+}
+#bordadoaopcao{
   color: white;
-
+}
+.upload{
+   position: absolute;
+   border: 2px solid red;
+   border-radius: 80px;
+   margin: -30px 0px 0px 150px;
+   width: 225px;
+   height: 225px;
+}
+#dadosempresa{
+  position: absolute;
+  border-radius: 40px;
+  background-color: red;
+  width: 700px;
+  height: 100px;
+  margin: 500px 100px 100px 100px
+}
+#logobord{
+  position: absolute;
+  margin: 70px 0px 0px 350px
+}
+.design{
+  position: absolute;
+  border: 2px solid red;
+  border-radius: 30px;
+  margin: -9px 0px 0px 510px;
+  width: 230px;
+  height: 180px;
+}
+#contatodesign{
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+  font-family: cursive;
+  font-size: 13px
+}
+#endedesign{
+  font-size: 13px;
+  margin: 25px 0px 0px 10px;
+}
+#uploadbordados{
+  text-align: center;
+  font-family: cursive;
+  font-size: 15px;
+  margin: 30px 0px 0px 0px
+}
+#imgupload{
+  position: absolute;
+  margin: 85px 0px 0px 50px;
+  height: 110px;
+  width: 120px
+}
+.botaobordado{
+  color: white;
+  text-decoration: none;
 }
