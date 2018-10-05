@@ -718,5 +718,10 @@ font-family: cursive;
   border-radius: 10px;
   width: 770px;
   height: 270px;
-  margin: -90px 0px 0px -45px
+  margin: 0px 0px 0px -35px
+}
+#logocomentario{
+  margin: -470px 0px 0px 340px;
+  width: 100px;
+  height: 100px
 }
