@@ -107,9 +107,11 @@
    margin: -8px 0px 5px 210px
 }
 #opcaodepoimento{
-  color: white;
   position: absolute;
   margin: -8px 0px 5px 450px
+}
+#depoimentooption{
+  color: white;
 }
 #bordadosfeitos{
   position: absolute;
@@ -280,6 +282,42 @@ border-radius: 40px;
 #logocadastro{
   position: absolute;
   margin: 50px 0px 0px 335px;
+}
+#logovenda1{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin: -455px 80px 100px 320px
+}
+#logovenda2{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin: -455px 80px 100px 320px
+}
+#logovenda3{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin: -455px 80px 100px 320px
+}
+#logovenda4{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin: -455px 80px 100px 320px
+}
+#logovenda5{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin: -455px 80px 100px 320px
+}
+#logovenda6{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin: -455px 80px 100px 320px
 }
 .voltarinicio{
   position: absolute;
@@ -586,11 +624,12 @@ width: 274.5px
   text-align: center;
   margin: 20px 0px 0px 0px;
   font-family: cursive;
-  font-size: 13px
+  font-size: 13px;
 }
 #endedesign{
   font-size: 13px;
   margin: 25px 0px 0px 10px;
+
 }
 #uploadbordados{
   text-align: center;
@@ -607,4 +646,77 @@ width: 274.5px
 .botaobordado{
   color: white;
   text-decoration: none;
+}
+#comprasucedida{
+  text-align: center;
+  font-size: 50px;
+  margin: 40px 0px 0px 0px;
+  color: white;
+}
+body{
+  background-color: #ff4040;
+}
+.botaovoltarinicio{
+  border-radius: 200px;
+  border: 2px solid white;
+  width: 200px;
+  height: 130px;
+  margin: 30px 0px 0px 450px
+}
+.botaovoltarroupas{
+  border-radius: 200px;
+  border: 2px solid white;
+  width: 200px;
+  height: 130px;
+  margin: -130px 0px 0px 700px
+}
+#voltar{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 50px 0px 0px 0px;
+font-family: cursive;
+}
+#voltarinicio{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 35px 0px 0px 0px;
+  font-family: cursive;
+}
+#logocompra{
+  border-radius: 100px;
+  margin: 100px 0px 0px 550px;
+  width: 250px;
+  height: 150px;
+}
+.botaocomprar{
+  width: 130px;
+  height: 60px;
+  margin: 110px 0px 0px 65px;
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color: #ff4040;
+}
+.botaocomprar:hover{
+  border: 3px solid red;
+  background-color: #ff4040;
+}
+#botaocompra{
+   text-align: center;
+   color: white;
+}
+.imagemcomentariocontorno{
+  margin: 157px 0px 0px 100px;
+  width: 700px;
+  height: 280px;
+  border-radius: 10px;
+}
+#comentarios1{
+  border-radius: 10px;
+  width: 770px;
+  height: 270px;
+  margin: -90px 0px 0px -45px
 }
