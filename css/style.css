@@ -258,7 +258,7 @@ border-radius: 40px;
   position: absolute;
   width: 500px;
   height: 25px;
-  margin: 30px 0px 0px 180px;
+  margin: 20px 0px 0px 180px;
   border-radius: 50px
 }
 .anunciocadastro{
@@ -697,7 +697,7 @@ font-family: cursive;
 .botaocomprar{
   width: 130px;
   height: 60px;
-  margin: 110px 0px 0px 65px;
+  margin: -60px 0px 0px 65px;
   border: 2px solid red;
   border-radius: 10px;
   background-color: #ff4040;
@@ -765,7 +765,7 @@ font-family: cursive;
  border-radius: 10px;
 }
 #emaillogin{
-  margin: 85px 0px 0px 200px;
+  margin: 65px 0px 0px 200px;
   width: 400px;
   font-family: cursive;
   border-radius: 10px
@@ -782,4 +782,31 @@ font-family: cursive;
   height: 50px;
   border-radius: 10px;
   border: 1px solid red
+}
+#calculofrete{
+margin: 120px 0px 0px 230px;
+height: 50px;
+width: 150px;
+border-radius: 10px;
+text-align: center;
+font-size: 15px;
+font-family: cursive
+}
+.cep{
+  border: 1px solid red;
+  width: 100px;
+  height: 50px;
+  margin: -50px 0px 0px 390px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 15px;
+  background-color: #ff4040
+}
+.cep:hover{
+border: 2px solid red
+}
+#cep1{
+  margin: 0px 0px 0px 0px;
+  color: white;
 }
